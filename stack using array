@@ -71,14 +71,14 @@ void main()
 int ch,s;
 while(1)
 {
-printf("\n 1.push \n 2. pop \n 3. findtop \n 4.display");
-printf("\n enter your choice\n");
+printf("\n 1.PUSH \n 2. POP \n 3. FIND TOP \n 4.DISPLAY");
+printf("\n ENTER YOUR CHOICE\n");
 scanf("%d",&ch);
 switch(ch)
 {
 case 1:
 {
-printf("\n enter the data");
+printf("\n ENTER YOUR DATA");
 scanf("%d",&s);
 push(s);
 break;
@@ -100,7 +100,7 @@ break;
 }
 default:
 {
-printf("wrong option");
+printf("WRONG OPTION");
 break;
 }
 }
