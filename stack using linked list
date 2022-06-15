@@ -82,10 +82,10 @@ void display()
 void main()
 {
 	int ch,val;
-	printf("MENU");
-	printf("\n1. push \n2. pop \n3. display \n4. exit\n");
 	while(1)
 	{
+		printf("MENU");
+		printf("\n1. push \n2. pop \n3. display \n4. exit\n");
 		printf("Enter your choice:");
 		scanf("%d",&ch);
 		switch (ch)
