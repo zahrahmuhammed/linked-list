@@ -86,7 +86,7 @@ void main()
 	printf("\n1. push \n2. pop \n3. display \n4. exit\n");
 	while(1)
 	{
-		printf("Enter your choice:{1/2/3/4}:");
+		printf("Enter your choice:");
 		scanf("%d",&ch);
 		switch (ch)
 		{
